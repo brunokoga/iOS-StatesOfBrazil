@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
-  s.homepage     = "http://github.com/chrisfsampaio/iOS-StatesOfBrazil"
+  s.homepage     = "http://github.com/brunokoga/iOS-StatesOfBrazil"
 
   s.license      = 'MIT'
   s.license      = { :type => 'MIT', :file => 'LICENSE.md' }
