@@ -6,17 +6,5 @@
 //  Copyright (c) 2014 Ginga One. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
-@interface NSArray (StatesOfBrazil)
-
-+ (instancetype)statesOfBrazilAbbreviations;
-+ (instancetype)statesOfBrazilCompleteNames;
-
-@end
-
-@interface NSDictionary (StatesOfBrazil)
-
-+ (instancetype)statesOfBrazil;
-
-@end
+#import "NSArray+StatesOfBrazil.h"
+#import "NSDictionary+StatesOfBrazil.h"

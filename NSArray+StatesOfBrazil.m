@@ -6,10 +6,9 @@
 //  Copyright (c) 2014 Ginga One. All rights reserved.
 //
 
-#import "BKStatesOfBrazil.h"
+#import "NSArray+StatesOfBrazil.h"
 
 @implementation NSArray (StatesOfBrazil)
-
 + (instancetype)statesOfBrazilAbbreviations
 {
     return @[@"AC",
@@ -71,15 +70,6 @@
              @"São Paulo",
              @"Sergipe",
              @"Tocantins"];
-}
-@end
-
-@implementation NSDictionary (StatesOfBrazil)
-
-+ (instancetype)statesOfBrazil
-{
-    return [self dictionaryWithObjects:[NSArray statesOfBrazilCompleteNames]
-                               forKeys:[NSArray statesOfBrazilCompleteNames]];
 }
 
 @end
