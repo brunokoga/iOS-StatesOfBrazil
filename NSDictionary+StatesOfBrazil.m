@@ -14,7 +14,7 @@
 + (instancetype)statesOfBrazil
 {
     return [self dictionaryWithObjects:[NSArray statesOfBrazilCompleteNames]
-                               forKeys:[NSArray statesOfBrazilCompleteNames]];
+                               forKeys:[NSArray statesOfBrazilAbbreviations]];
 }
 
 @end
